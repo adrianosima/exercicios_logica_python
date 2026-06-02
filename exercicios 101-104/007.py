@@ -7,7 +7,7 @@ o programa deve mostrar a média aritmética entre a maior e a
 menor idade.
 
 """
-import statistics as st
+import statistics 
 
 IdadesAluno = []
 
