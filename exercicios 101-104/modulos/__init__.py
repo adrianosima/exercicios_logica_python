@@ -7,3 +7,4 @@ def Menu():
         3                     Médico
 
     """)
+

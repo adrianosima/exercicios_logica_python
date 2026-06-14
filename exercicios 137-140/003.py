@@ -14,11 +14,13 @@ from random import choice
 PessoasRifa = []
 
 while True:
-    Comprarm = input("Escreva o nome do comprador: ")
-    PessoasRifa.append(Comprarm)
-    if Comprarm == "":
-        PessoasRifa.remove("")
+    Compraram = input("Escreva o nome do comprador: ")
+    
+    if Compraram == "":
         break
+    else:
+        PessoasRifa.append(Compraram)
+
 
 sorteio = choice(PessoasRifa)
 print(f"o vencedor é {sorteio}")

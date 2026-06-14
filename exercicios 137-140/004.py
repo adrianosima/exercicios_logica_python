@@ -11,7 +11,7 @@ from statistics import mean
 NumeroImparNatural = int(input("Escreva um numero impar positivo: "))
 NNatual = []
 
-if (NumeroImparNatural%2 > 0):
+if ((NumeroImparNatural%2 != 0) and (NumeroImparNatural > 1)):
     for i in range(1,NumeroImparNatural+1):
         NNatual.append(i)
         CentroLista = mean(NNatual)
