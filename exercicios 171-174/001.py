@@ -33,4 +33,4 @@ elif opção == '3':
     print(retangulo())
 
 else:
-    print('Opção invalida [1-3]')
+    print('Opção valida [1-3]')
